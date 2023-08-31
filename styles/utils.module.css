@@ -1,0 +1,94 @@
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #666;
+}
+.greenText {
+  color: #92fe0e;
+}
+.whiteText {
+  color: #fff;
+}
+.blogs {
+  transition: all 0.3s;
+  display: grid;
+  margin: 0;
+  transition: all 0.5s;
+  color: #fff;
+  text-decoration: none;
+  place-items: center;
+  background-color: rgb(8, 202, 251);
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.emailForm {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+.emailForm input {
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #666;
+}
+.emailForm input[type="email"] {
+  width: 70%;
+  font-size: 1.3rem;
+}
+.emailForm input[type="submit"] {
+  width: 25%;
+  color: #fff;
+  background: #0ec6fe;
+  border: none;
+}
